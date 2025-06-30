@@ -3,7 +3,7 @@
 
 AI Chat App using Generative Language Client API
 
-[chat-ai](https://ai.visheshpandey.com)
+
 
 ## Setup Procedure
 
@@ -47,9 +47,14 @@ Chat AI is a sleek, real-time AI chatbot web app built with React. It uses Googl
 
 ### ⚙️ Installation
 
+create .env file  write
+ VITE_API_GENERATIVE_LANGUAGE_CLIENT= "your gemini api kiey  "
+
+ 
 ```bash
 git clone https://github.com/your-username/chat-ai.git
 cd chat-ai
+
 npm install
 npm run dev
 >>>>>>> a648cf390bd89c8bbdca608b5b0439c5350c51d7
